@@ -1,0 +1,22 @@
+﻿node_modules/
+client/node_modules/
+server/node_modules/
+client/dist/
+server/dist/
+.env
+.env.*
+!.env.example
+coverage/
+*.log
+.DS_Store
+
+# Local database backups
+backup-before-seeding-*/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Local virtual environments
+venv/
+.venv/
